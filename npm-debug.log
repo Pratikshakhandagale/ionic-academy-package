@@ -11,7 +11,7 @@
 7 silly cache add   escapedName: null,
 7 silly cache add   name: null,
 7 silly cache add   rawSpec: '.',
-7 silly cache add   spec: '/home/ttpl49/Documents/htdoc/pratikshak-npm/myNpm',
+7 silly cache add   spec: '/home/ttpl49/Documents/git/ionic-academy-package',
 7 silly cache add   type: 'directory' }
 8 verbose addLocalDirectory /home/ttpl49/.npm/ionic-academy-package/1.0.0/package.tgz not in flight; packing
 9 verbose correctMkdir /home/ttpl49/.npm correctMkdir not in flight; initializing
@@ -20,9 +20,9 @@
 12 info lifecycle ionic-academy-package@1.0.0~prepare: ionic-academy-package@1.0.0
 13 silly lifecycle ionic-academy-package@1.0.0~prepare: no script for prepare, continuing
 14 verbose tar pack [ '/home/ttpl49/.npm/ionic-academy-package/1.0.0/package.tgz',
-14 verbose tar pack   '/home/ttpl49/Documents/htdoc/pratikshak-npm/myNpm' ]
+14 verbose tar pack   '/home/ttpl49/Documents/git/ionic-academy-package' ]
 15 verbose tarball /home/ttpl49/.npm/ionic-academy-package/1.0.0/package.tgz
-16 verbose folder /home/ttpl49/Documents/htdoc/pratikshak-npm/myNpm
+16 verbose folder /home/ttpl49/Documents/git/ionic-academy-package
 17 verbose addLocalTarball adding from inside cache /home/ttpl49/.npm/ionic-academy-package/1.0.0/package.tgz
 18 verbose correctMkdir /home/ttpl49/.npm correctMkdir not in flight; initializing
 19 silly cache afterAdd ionic-academy-package@1.0.0
@@ -60,7 +60,7 @@
 23 silly publish      'zone.js': '0.8.18' },
 23 silly publish   readme: '# myNpm\nThis is the first repo to create my first test npm package\n',
 23 silly publish   readmeFilename: 'README.md',
-23 silly publish   gitHead: '7c882bbf54bb3236ea3498a545b6e2c2940d7ab2',
+23 silly publish   gitHead: '175d93913c110a6de7939e3bd9f7995aea967422',
 23 silly publish   _id: 'ionic-academy-package@1.0.0',
 23 silly publish   _shasum: 'e4d1efc7d2196c7fb23b4628185fc8ffd542c6fb',
 23 silly publish   _from: '.' }
@@ -83,17 +83,17 @@
 33 silly publish uploading /home/ttpl49/.npm/ionic-academy-package/1.0.0/package.tgz
 34 verbose request uri https://registry.npmjs.org/ionic-academy-package
 35 verbose request sending authorization for write operation
-36 info attempt registry request try #1 at 11:55:32
+36 info attempt registry request try #1 at 12:16:41
 37 verbose request using bearer token for auth
-38 verbose request id a33d8a2845584677
+38 verbose request id 25d842904352b3b0
 39 http request PUT https://registry.npmjs.org/ionic-academy-package
 40 http 403 https://registry.npmjs.org/ionic-academy-package
-41 verbose headers { date: 'Wed, 02 Jan 2019 06:25:33 GMT',
+41 verbose headers { date: 'Wed, 02 Jan 2019 06:46:42 GMT',
 41 verbose headers   'content-type': 'application/json',
 41 verbose headers   'transfer-encoding': 'chunked',
 41 verbose headers   connection: 'keep-alive',
-41 verbose headers   'set-cookie': [ '__cfduid=d3d7209d856ad941d6bf8c5d5a315f4161546410332; expires=Thu, 02-Jan-20 06:25:32 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
-41 verbose headers   'cf-ray': '492b26246a4c8aa3-BOM',
+41 verbose headers   'set-cookie': [ '__cfduid=dedeafb3ac8c5c0f5ea006970be565a121546411601; expires=Thu, 02-Jan-20 06:46:41 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+41 verbose headers   'cf-ray': '492b45200fab88ba-BOM',
 41 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 41 verbose headers   vary: 'Accept-Encoding',
 41 verbose headers   server: 'cloudflare',
@@ -112,7 +112,7 @@
 44 verbose stack     at process._tickCallback (internal/process/next_tick.js:180:9)
 45 verbose statusCode 403
 46 verbose pkgid ionic-academy-package
-47 verbose cwd /home/ttpl49/Documents/htdoc/pratikshak-npm/myNpm
+47 verbose cwd /home/ttpl49/Documents/git/ionic-academy-package
 48 error Linux 4.4.0-128-generic
 49 error argv "/usr/bin/nodejs" "/usr/local/bin/npm" "publish"
 50 error node v8.4.0
